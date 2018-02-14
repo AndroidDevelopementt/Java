@@ -1,0 +1,180 @@
+public class BilgiYarisması {
+
+	public static void main(String[] args) {
+	 //Bilgi Yarışması Oyunu//
+		Scanner s=new Scanner(System.in);
+	String s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,c1,c2,c3,c4,c5,c6,c7,c8,c9,c10;
+	String tus;
+	int para=0,sayi=0;
+	
+	System.out.println("**********Bilgi Yarışması******");
+	System.out.println("Devam Etmek için bir tuşa basın.");
+	tus=s.next();
+	System.out.println("Soru 1-)Aşağıdakilerden hangisi bir programlama dili değildir:");
+	s1=s.next();
+	System.out.println("A-)Php B-)Objective-C C-) Android D-) C#");
+   c1=s.next();
+   
+    
+	if(c1.equals("C"))
+	{
+		System.out.println("Tebrikler doğru cevap..");
+		para=para+100;
+		sayi++;
+	}
+	
+	else 
+	{
+		System.out.println("Yanlış Cevap");
+	}
+	System.out.println("Soru 2-)Aşağıdakilerden hangisi Pentest kelimesinin türkçe anlamıdır");
+	s2=s.next();
+	System.out.println("A-)SızmaTesti B-)AlanAdıSistemi C-)SiberGüvenlik D-)IpYedekleme");
+	c2=s.next();
+    if(c2.equals("A"))
+    {
+    	System.out.println("Tebrikler doğru cevap..");
+        para=para+100;
+    	sayi++;
+    }
+    else 
+    {
+    	System.out.println("Yanlış Cevap");
+    }
+    System.out.println("Soru 3-)Sinekli Bakkal kitabının yazarı aşağıdakilerden hangisidir");
+    s3=s.next();
+    System.out.println("A-)Reşat Nuri Güntekin B-)Halide Edip Adıvar C-)Ziya GökAlp D-)Ömer Seyfettin");
+    c3=s.next();
+    if(c3.equals("B"))
+    {
+    	System.out.println("Tebrikler Doğru Cevap");
+    	para=para+100;
+    	sayi++;
+    }
+    else
+    {
+    	System.out.println("Yanlış Cevap");
+    }
+    System.out.println("Soru 4-)Aşağıda verilen ilk çağ uygarlıklarından hagnisi yazıyı icat etmiştir");
+    s4=s.next();
+    System.out.println("A-)Hititler B-)Elamlar C-)Sümerler D-)Urartular");
+    c4=s.next();
+    if(c4.equals("C"))
+    {
+    	System.out.println("Tebrikler doğru cevap");
+    	para=para+100;
+    	sayi++;
+    }
+    else 
+    {
+    	System.out.println("Yanlış Cevap");
+
+    }
+    System.out.println("Soru 5-)Tsunami felaketinde en fazla zarar gören güney asya ülkesi aşağıdakilerden hangisidir?");
+    s5=s.next();
+    System.out.println("A-)Endonezya B-)Srilanka C-)Tayland D-)Hindistan");
+    c5=s.next();
+    if(c5.equals("A"))
+    {
+    	System.out.println("Tebrikler Doğru Cevap");
+    	para=para+100;
+    	sayi++;
+    }
+    else 
+    {
+    	System.out.println("Yanlış Cevap");
+    }
+    System.out.println("Soru 6-)2003 yılında euro vizyon şarkı yarışmasında ülkemizi temsil eden ve yarışmada birinci gelen sanatçımız kimdir?");
+    s6=s.next();
+    System.out.println("A-Grup Athena B-)Sertap Erener C-)Şebnem Paker D-)Ajda Pekkan");
+    c6=s.next();
+    if(c6.equals("B"))
+    {
+    	System.out.println("Tebrikler doğru cevap");
+    	para=para+100;
+    	sayi++;
+    }
+    else
+    {
+    	System.out.println("Yanlış Cevap");
+    }
+    System.out.println("Soru 7-)Mustafa Kemal Atatürkün Nüfusa kayıtlı olduğu il hangisidir?");
+    s7=s.next();
+    System.out.println("A-)Bursa B-)Ankara C-)İstanbul D-)GaziAntep");
+    c7=s.next();
+    if(c7.equals("D"))
+    {
+    	System.out.println("Tebrikler Doğru Cevap");
+    	para=para+100;
+    	sayi++;
+    }
+    else 
+    {
+    	System.out.println("Yanlış Cevap");
+    }
+    System.out.println("Soru 8-)Romen Rakamında hangi sayı yoktur");
+    s8=s.next();
+    System.out.println("A-)0 B-)50 C-)100 D-)1000");
+    c8=s.next();
+    if(c8.equals("A"))
+    {
+    	System.out.println("Tebrikler Doğru Cevap");
+    	para=para+100;
+    	sayi++;
+    }
+    else 
+    {
+    	System.out.println("Yanlış Cevap");
+    }
+    
+   System.out.println("Soru 9-)Hangi ilimizde demir yolu yoktur");
+   s9=s.next();
+   System.out.println("A-)Batman B-)Kütahya C-)Aydın D-)Muğla");
+   c9=s.next();
+   if(c9.equals("D"))
+   {
+	   System.out.println("Tebrikler Doğru Cevap");
+	   para=para+100;
+	   sayi++;
+   }
+   else 
+   {
+	   System.out.println("Yanlış Cevap");
+   }
+   
+   System.out.println("Soru 10-) Üç büyük dince kutsal sayılan şehir hangisidir");
+   s10=s.next();
+   System.out.println("A-)Mekke B-)Kudüs C-)Roma D-)İstanbul");
+   c10=s.next();
+   if(c10.equals("B"))
+   {
+	   System.out.println("Tebrikler Doğru Cevap");
+	   para=para+100;
+	   sayi++;
+   }
+   else 
+   {
+	   System.out.println("Yanlış Cevap");
+   }
+    
+ 
+   if(sayi==10)
+   {
+	   System.out.println("Tebrikler tüm soruları bildiniz");
+	   System.out.println("Kazandığınız Para  "+para+"  TL");
+   }
+   else
+   {
+	   System.out.println("Tebrikler Yarışmayı Bitirdiniz");
+	   System.out.println("Bildiğiniz Soru Sayısı "+sayi+" Kazandığınız Para "+para+" TL");
+   }
+   System.out.println("Yarışma Sona Erdi.");
+   
+
+
+	
+	
+
+	}
+
+}
