@@ -1,0 +1,82 @@
+public class AlisVerisSepeti {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+	  String reyon,istek;
+	  int ücret=0,urunsayi=0;
+	 
+	  
+	  System.out.println("Giyim Mağazasına Hoşgeldiniz");
+	  System.out.println("Hangi Reyonumuza Girmek istiyorsanız onu seçin:Kadın/Erkek");
+	  reyon=s.next();
+	   if(reyon.equals("Erkek"))
+	   {
+		   
+		  System.out.println("Erkek Reyonuna Hoşgeldiniz Ne almak İstersiniz:");
+			  
+			 while(true)
+			 {
+				 System.out.println("1-)Pantolon 60TL\n2-)Jean 70TL\n3-)Sweat 40TL\n");
+				  istek=s.next();
+				  if(istek.equals("Pantolon"))
+				  {
+					  ücret=ücret+60;
+					  urunsayi++;
+				  }
+				  else if(istek.equals("Jean"))
+				  {
+					  ücret=ücret+70;
+					  urunsayi++;
+				  }
+				  else if(istek.equals("Sweat"))
+				  {
+					  ücret=ücret+40;
+					  urunsayi++;
+				  }
+				  else 
+				  {
+					  break;
+				  }
+				  
+			 }
+			
+	   }
+	   if(reyon.equals("Kadın"))
+	   {
+		   System.out.println("Kadın reyonuna Hoşgeldiniz ne almak istersiniz:");
+		   while(true)
+		   {
+			   System.out.println("1-)Giysi 60TL\n2-)Jean 70TL\n3-)Sweat 80TL\n 4-)Butik 90TL\n");
+			   istek=s.next();
+			   if(istek.equals("Giysi"))
+			   {
+				   ücret=ücret+60;
+				   urunsayi++;
+			   }
+			   else if(istek.equals("Jean"))
+			   {
+				   ücret=ücret+70;
+				   urunsayi++;
+			   }
+			   else if(istek.equals("Sweat"))
+			   {
+				   ücret=ücret+80;
+				   urunsayi++;
+			   }
+			   else if(istek.equals("Butik"))
+			   {
+				  ücret=ücret+90;
+				  urunsayi++;
+			   }
+			   else
+			   {
+				   break;
+			   }
+			   
+		   }
+	   }
+	   System.out.println("Aldığınız ürün sayisi:"+urunsayi+"Adet"+"Ödemeniz gereken toplam miktar:"+ücret+"TL'Dir.");
+	   
+	}
+}
+			  
